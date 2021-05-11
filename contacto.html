@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contacto Alberto García</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+
+        <script id="Hora">
+			let d = new Date();
+			document.body.innerHTML = "<h3>Son las:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
+			"</h3>"
+			</script>
+
+	   <body bgcolor="#F2F2F2">
+		<div id="principal">
+			<header>
+				<div id="logo">
+					<h2 class="titulo">Página de contacto</h2>
+					<p class="sub-titulo">Complete los siguientes campos.</p>
+				</div>
+
+				<nav class="menu">
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li>------------------</li>
+						<li><a href="DJ.html">DJ</a></li>
+						<li>------------------</li>
+						<li><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<section id="slide">
+				<img src="img/tml.jpg" width="900" height="250">
+			</section>
+
+			<section id="categorias">
+				<section id="formulario">
+					<h2 class="titulo-contacto">Contacte con Alberto.G</h2>
+					<div id="form">
+						<form name="cotacto" method="POST" action="#">
+							<label for="nombre">Nombre:</label><br>
+							<input type="text" name="nombre" placeholder="Ingrese su nombre"><br>
+
+							<label for="correo">Email:</label><br>
+							<input type="text" name="correo" placeholder="Ingrese su email"><br>
+
+							<label for="asunto">Asunto:</label><br>
+							<input type="text" name="asunto" placeholder="Ingrese su asunto"><br>
+							<label for="nombre">Mensaje</label><br>
+							<textarea name="menaje" placeholder="Ingrese su mensaje"></textarea>
+							<br>
+							<hr>
+							<input type="submit" name="enviar" class="enviar">
+						</form>
+
+					</div>
+
+					<div id="datos">
+							Teléfono Fijo: <strong>916338647</strong><br>
+							Teléfono Móvil: <strong>640229247</strong><br>
+							E-Mail: <strong>albert7rmadrid@gmail.com</strong><br>
+							Dirección: <strong>Majadahonda Madrid </strong><br>
+						</div>
+				</section>
+
+				<section id="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12139.304500928252!2d-3.8553606000000005!3d40.4791115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41846582414961%3A0xb7de74e24489f270!2sInstituto%20de%20Formaci%C3%B3n%20Profesional%20Mar%C3%ADa%20de%20Zayas%20y%20Sotomayor!5e0!3m2!1ses!2ses!4v1620477084554!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</section>
+				
+			</section>
+			
+			<footer id="Derechos">
+
+				<p>
+					(c) Todos los derechos reservados - A.G 2021 <br>
+					Diseñado por <a href="albert7rmadrid@gmail.com">Alberto García</a>
+				</p>
+			</footer>
+
+			
+		</div>
+	   </body>
+	</body>
+</html>
